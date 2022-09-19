@@ -19,22 +19,12 @@ function App() {
     <Router>
     
       <div className="App">
-        <div className="dope">
-        <Switch>
-        <Route path="/r">
-              <R2/>
-            </Route>
-            <Route path="/w">
-              <Wel/>
-            </Route>
         
-        </Switch>
-        </div>
         <Navbar/>
         <div className="content">
           <Switch>
             <Route exact path="/">
-              <Home/>
+              <Wel/>
             </Route>
             <Route path="/create">
               <Create/>
@@ -51,6 +41,15 @@ function App() {
             <Route path="/log">
               <Login/>
             </Route>
+      
+          <Route path="/r">
+              <R2/>
+            </Route>
+            <Route path="/w">
+              <Home/>
+            </Route>
+        
+      
           </Switch>      
         </div>
       </div>

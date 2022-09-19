@@ -5,7 +5,7 @@ const Navbar = () => {
         <nav className="navbar">
             <h1>The Hole Areana</h1>
             <div className="links">
-                <Link to="/">Home</Link>
+                <Link to="/w">Home</Link>
                 <Link to="/create">New Zone</Link>
                 <Link to="/log">Login</Link>
             </div>
