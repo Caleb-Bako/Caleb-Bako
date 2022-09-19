@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from './Navbar';
 import Home from './Home';
-import{BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import{BrowserRouter as Router, Route, Switch, useLocation} from 'react-router-dom'
 import Create from "./Create";
 import HoleDetails from "./HoleDetails";
 import NotFound from "./NotFound";
@@ -12,6 +12,8 @@ import R2 from "./R2";
 import "./index.css";
 function App() {
   
+  const location = useLocation()
+  
   
   return (
     
@@ -20,7 +22,7 @@ function App() {
     
       <div className="App">
         
-        <Navbar/>
+    {location.pathName !== "/" && <Navbar/>}
         <div className="content">
           <Switch>
             <Route exact path="/">
