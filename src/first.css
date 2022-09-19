@@ -1,0 +1,30 @@
+.welc{
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(#2b1055,#7597de);
+}
+
+.lo{
+    margin-bottom: 28px;
+    margin-top: 22px;
+    color: black;
+}
+
+button{
+    border: none;
+    background-color: rgb(245, 182, 8);
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #7439db;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,89 @@
+.regis{
+  text-align: center;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: rgb(10, 10, 10);
+  background-size: cover;
+  background-position: center;
+  
+  }
+.auth-form-container, .login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media screen and (min-width: 300px) {
+    .auth-form-container {
+      background-color: #fff;
+      padding: 0px 60px;
+      width: 300px;
+      margin: 0px auto;
+      border-radius: 32px;
+    }
+  }
+  h2{
+    margin-bottom: 28px;
+    margin-top: 22px;
+  }
+  
+  label {
+    text-align: left;
+    padding: 0.25rem 0;
+  }
+  
+  input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100% - 23px);
+    border-radius: 32px;
+  }
+  input:focus{
+    border-color: #6e8095;
+    outline: none;
+  }
+  
+  button {
+    border: none;
+    background-color: rgb(245, 182, 8);
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #7439db;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  span{
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+  }
+  input:invalid ~ span{
+    display: block;
+  }
+  
+  
+  .link-btn {
+    background: none;
+    color: #000100;
+  }
+  .submit:hover{
+    box-shadow: 1px 3px 5px #000100;}
+body {
+    margin: 0;
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }    

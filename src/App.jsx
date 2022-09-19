@@ -5,11 +5,31 @@ import{BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Create from "./Create";
 import HoleDetails from "./HoleDetails";
 import NotFound from "./NotFound";
+import Register from "./Register";
+import Login from "./Login";
+import Wel from "./wel";
+import R2 from "./R2";
+import "./index.css";
 function App() {
   
+  
   return (
+    
+
     <Router>
+    
       <div className="App">
+        <div className="dope">
+        <Switch>
+        <Route path="/r">
+              <R2/>
+            </Route>
+            <Route path="/w">
+              <Wel/>
+            </Route>
+        
+        </Switch>
+        </div>
         <Navbar/>
         <div className="content">
           <Switch>
@@ -22,13 +42,21 @@ function App() {
             <Route path="/holes/:id">
               <HoleDetails/>
             </Route>
-            <Route path="*">
+            <Route path="f">
               <NotFound/>
             </Route>
-          </Switch>
+            <Route path="/reg" >
+              <Register/>
+            </Route>
+            <Route path="/log">
+              <Login/>
+            </Route>
+          </Switch>      
         </div>
       </div>
     </Router>
+  
+
   );
 }
 
