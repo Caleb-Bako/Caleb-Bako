@@ -31,7 +31,7 @@ const R2 = (props) => {
                     <h1>You are logged in!</h1>
                     <br/>
                     <p>
-                        <Link to= "/w">Home</Link>
+                        <Link to= "/w">Next</Link>
                     </p>
                 </section>
             ) : (  
