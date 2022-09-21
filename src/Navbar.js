@@ -1,8 +1,12 @@
-import { Link } from "react-router-dom";
+import { Link ,useLocation} from "react-router-dom";
 import React from "react";
 const Navbar = () => {
+    const location = useLocation();
     return (
-        <nav className="navbar">
+        <nav className="navbar"
+              style={{display: `${location.pathname === "/" && "none"}`}}
+              styl={{display: `${location.pathname === "/r" && "none"}`}}
+              >
             <h1>The Hole Areana</h1>
             <div className="links">
                 <Link to="/w">Home</Link>

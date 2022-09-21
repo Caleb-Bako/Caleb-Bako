@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from './Navbar';
 import Home from './Home'
-import{BrowserRouter as Router, Route, Switch, useLocation} from 'react-router-dom'
+import{BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Create from "./Create";
 import HoleDetails from "./HoleDetails";
 import NotFound from "./NotFound";
@@ -10,19 +10,19 @@ import Login from "./Login";
 import Wel from "./wel";
 import R2 from "./R2";
 import "./index.css";
+import { AuthProvider } from "./context/AuthContext";
 function App() {
-  
-  const location = useLocation()
+
   
   
   return (
     
-
+ 
     <Router>
-    
+       <AuthProvider>
       <div className="App">
         
-    {location.pathName !== "/" && <Navbar/>}
+         <Navbar/>
         <div className="content">
           <Switch>
             <Route exact path="/">
@@ -55,8 +55,9 @@ function App() {
           </Switch>      
         </div>
       </div>
+      </AuthProvider>
     </Router>
-  
+    
 
   );
 }
