@@ -11,12 +11,11 @@ const Login = (props) => {
 
     const logi = async ()=>{
         try{
-            setError('')
             const users= await signInWithEmailAndPassword(auth, email, pass)
             console.log(users)
         }catch(error){
             console.log(error.message);
-            setError("Failed to Login")
+            
         }
     }
 
