@@ -7,16 +7,14 @@ import { signInWithEmailAndPassword} from 'firebase/auth'
 const Login = (props) => {
     const [email, setEmail] = useState('');
     const [pass, setPass] = useState('');
-    const setError = useState('');
 
     const logi = async ()=>{
         try{
-            setError('')
             const users= await signInWithEmailAndPassword(auth, email, pass)
             console.log(users)
         }catch(error){
             console.log(error.message);
-            setError("Failed to Login")
+            
         }
     }
 
