@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# **About Me** ✨
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello! I'm a passionate developer who creates websites and mobile applications, always aiming to glorify the Most High, **Jesus Christ**, through every line of code I write. 🙏✨
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## **What I Do** 🚀
 
-### `npm start`
+### **Web Development**
+- **Tech Stack**: 
+  - MERN Stack (MongoDB, Express.js, React, Node.js).
+  - AWS S3 Buckets for efficient file storage and management.
+- I develop scalable and interactive web applications tailored to meet user needs.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **Mobile App Development**
+- **Framework**: React Native.
+- **Database Expertise**:
+  - Supabase.
+  - SQLite.
+- I focus on creating intuitive and responsive mobile experiences.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### **Game Development**
+- As an **upcoming game developer**, I'm exploring the intersection of creativity and technology to build engaging gaming experiences.
+- **Future Aspirations**: Expanding my skills in game development and exploring innovative technologies.
+---
 
-### `npm test`
+## **Current Focus** 🎯
+My primary focus is on **coding and software development**, building efficient and impactful solutions across various domains.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## **Why I Code** 🌟
+Every project I take on is dedicated to serving Jesus Christ, striving to use my talents to bring positivity and inspiration to the world.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## **My Journey**
+- **Ongoing Goals**: Sharpening coding skills, expanding expertise in software development, and exploring innovative technologies.
+- **Future Aspirations**: Delve deeper into game development and push boundaries in app creation.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## **Let's Connect!** 🌐
+Feel free to reach out if you’d like to collaborate or learn more about my work. Together, let’s create projects that uplift and inspire!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+### **"Whatever you do, work at it with all your heart, as working for the Lord." – Colossians 3:23** ✝️
