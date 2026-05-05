@@ -17,5 +17,3 @@ My primary focus is on **coding and software development**, building efficient a
 ## **Let's Connect!** 🌐
 Feel free to reach out if you’d like to collaborate or learn more about my work. Together, let’s create projects that uplift and inspire!
 
----
-### **"Whatever you do, work at it with all your heart, as working for the Lord." – Colossians 3:23** ✝️
