@@ -58,11 +58,11 @@ I'm a back-end software engineer (fullstack capable) based in Nigeria, passionat
 
 | Project | Description | Stack | Link |
 |---|---|---|---|
-| **GovDocs** | Document management system live at a Nigerian government agency (NSDC), replacing manual paper workflows with a secure digital pipeline | Node.js, Express, MySQL, AWS S3 | [View →](https://github.com/Caleb-Bako/govdocs) |
-| **FarmInput** | Agri-tech platform connecting smallholder farmers to input suppliers and agricultural resources across Nigeria | Node.js, Express, MongoDB, React | [View →](https://github.com/Caleb-Bako/farminput) |
-| **Tax Calculation API** | REST API implementing the Nigerian Finance Act 2023 tax rules with coverage of 250+ edge cases and full test suite | Node.js, Express, TypeScript | [View →](https://github.com/Caleb-Bako/tax-calculation-api) |
+| **GovDocs** | Document management system live at a Nigerian government agency (NSDC), replacing manual paper workflows with a secure digital pipeline | Node.js, Express, MySQL, AWS S3 | [View →]Link Provided on Request |
+| **FarmInput** | Agri-tech platform connecting smallholder farmers to input suppliers and agricultural resources across Nigeria | Node.js, Express, MongoDB, React | [View →](https://github.com/Caleb-Bako/FarmInput__Capstone__Project) |
+| **Tax Calculation API** | REST API implementing the Nigerian Finance Act 2023 tax rules with coverage of 250+ edge cases and full test suite | Node.js, Express, TypeScript | [View →](https://rapidapi.com/CalebBako/api/global-tax-engine) |
 | **StudyPlan AI** | AI-powered study planner that reduced planning time by 50% for students, built with Gemini and real-time Supabase sync | Next.js, Gemini API, Supabase, TailwindCSS | [View →](https://github.com/Caleb-Bako/studyplan-ai) |
-| **Resume Builder** | Interactive resume builder with live preview, custom templates, and export functionality | React, TypeScript, TailwindCSS | [View →](https://github.com/Caleb-Bako/Resume_Builder) |
+| **FileBarn** | Interactive resume builder with live preview, custom templates, and export functionality | React, TypeScript, TailwindCSS | [View →](https://github.com/Caleb-Bako/Repository) |
 
 ---
 
